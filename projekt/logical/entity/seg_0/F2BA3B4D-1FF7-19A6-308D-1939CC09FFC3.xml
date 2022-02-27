@@ -14,4 +14,71 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_employee" id="778A9538-835C-500F-7865-09B567E88E7E">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:59:01 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position" id="24082093-60AC-52F5-A069-6DD66673E5B5">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:59:09 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="starting_date" id="DA59E785-2C77-207E-E35F-4511BF0A54E7">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:59:21 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hours_per_month" id="3B35142B-9496-E44E-0AF3-1041837D203C">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:59:39 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ending_date" id="BFB91113-314C-F44B-8A89-C19AA41BCF5C">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:59:48 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE0E41B6-078A-F48A-37A9-9F88EFA43AB2" name="Employee PK">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:59:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>778A9538-835C-500F-7865-09B567E88E7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

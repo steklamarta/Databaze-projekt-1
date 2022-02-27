@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E533E2FB-A749-FB7E-6696-A7B04544A346" name="Animal">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D779FE1-7174-B6AC-C5F6-E388EDC9B30C" name="Clasification">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-26 16:33:39 UTC</createdTime>
+<createdTime>2022-02-27 13:30:11 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_animal" id="4C4694C5-0BF8-A10A-1C36-F1BBBAB99935">
+<Attribute name="id_clasification" id="F85A92A2-1E93-DB28-70F0-1A7CC32EE75F">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:41:51 UTC</createdTime>
+<createdTime>2022-02-27 13:39:11 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="DAB90632-F2AE-D8A2-4E9F-408DCD591DB7">
+<Attribute name="kingdom" id="F6DAC42E-7491-1F23-A191-8CA71E1A2026">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:42:00 UTC</createdTime>
+<createdTime>2022-02-27 13:39:28 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -35,20 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="country_of_origin" id="1C4DC3AB-CFDA-14BA-F8B0-A3A2E55A257E">
+<Attribute name="phylum" id="F8641546-B456-799E-EFDB-25CB7B9DBABE">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:42:10 UTC</createdTime>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="preferred_biome" id="63E058EA-C74E-64BC-82DD-EA32EC8D0B44">
-<createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:42:32 UTC</createdTime>
+<createdTime>2022-02-27 13:40:29 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -56,31 +45,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="parents" id="0F05B0A3-1FE0-F7CE-C9F0-3033877424FF">
+<Attribute name="class" id="45DFF33A-D803-67EB-DD50-ED627BC0AFCE">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:42:46 UTC</createdTime>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="date_of_birth" id="0F746AA9-E85A-0ED2-6611-8D7528103BBD">
-<createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:42:57 UTC</createdTime>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="sex" id="4399AC2B-472E-9F9F-B15B-7B092EE64FF0">
-<createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:44:08 UTC</createdTime>
+<createdTime>2022-02-27 13:40:36 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -88,20 +55,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="place_of_birth" id="7952BADA-E425-BDF2-6063-3E9C47942712">
+<Attribute name="family" id="F9B414A0-5D6F-35B3-C48C-A89932EF3FCE">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:44:35 UTC</createdTime>
-<ownerDesignName>projekt</ownerDesignName>
-<engineerTo>
-<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="feed" id="FAA450C3-2B89-809A-149B-7587728E203B">
-<createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:44:46 UTC</createdTime>
+<createdTime>2022-02-27 13:40:42 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -109,9 +65,19 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="time_of_feeding" id="C853B9B8-12EB-03B8-E1ED-447F1F6F4689">
+<Attribute name="genus" id="39B18285-30D0-D53D-1D5E-F36027AB2958">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:44:53 UTC</createdTime>
+<createdTime>2022-02-27 13:40:48 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="species" id="6FC8A9E6-EDFD-49AA-8392-E2A0631CF466">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:40:58 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
@@ -121,16 +87,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DC22C00C-3CD5-8B34-8CDC-A9A9046E6B30" name="Animal PK">
+<identifier id="980B6462-FF2A-EEC0-7B42-F2DE1320DC10" name="Clasification PK">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:41:58 UTC</createdTime>
+<createdTime>2022-02-27 13:39:26 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4C4694C5-0BF8-A10A-1C36-F1BBBAB99935</attributeRef>
+<attributeRef>F85A92A2-1E93-DB28-70F0-1A7CC32EE75F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

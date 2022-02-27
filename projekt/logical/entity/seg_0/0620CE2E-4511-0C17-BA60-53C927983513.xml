@@ -14,4 +14,51 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_visitor" id="AA6CF2BF-E794-2841-B1D0-8952843B2453">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 14:01:12 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time_of_entry" id="67C69C08-97C5-A658-8444-56E902DBFA94">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 14:01:21 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_duration" id="1E7681EE-AC48-DA3F-80AE-AC96A9A4868E">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 14:01:33 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FAF75A7-883E-5667-C28D-CF9C5E84F373" name="Visitor PK">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 14:01:19 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA6CF2BF-E794-2841-B1D0-8952843B2453</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

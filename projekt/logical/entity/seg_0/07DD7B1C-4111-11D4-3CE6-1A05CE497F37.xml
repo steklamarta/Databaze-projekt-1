@@ -14,4 +14,50 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_enclosure" id="4B4FCAF4-64C6-CA10-93F5-3AC9B82B40A1">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:57:51 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="4C4B4B64-4B6D-F533-C771-B957B8B73DCC">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:57:58 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="C639C7D9-CD50-7DA5-0301-DDEA80ED398A">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:58:04 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACC4B8C8-1C4C-BB41-CB4A-68F4C332C7D7" name="Enclosure PK">
+<createdBy>stekl</createdBy>
+<createdTime>2022-02-27 13:57:57 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B4FCAF4-64C6-CA10-93F5-3AC9B82B40A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
