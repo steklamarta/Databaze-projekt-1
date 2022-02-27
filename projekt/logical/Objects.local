@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E533E2FB-A749-FB7E-6696-A7B04544A346" name="Animal" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="48376625-74A5-4604-1BBC-21ECF8C3E913" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F2BA3B4D-1FF7-19A6-308D-1939CC09FFC3" name="Employee" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="48376625-74A5-4604-1BBC-21ECF8C3E913" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="07DD7B1C-4111-11D4-3CE6-1A05CE497F37" name="Enclosure" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="48376625-74A5-4604-1BBC-21ECF8C3E913" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="ECC14E41-D9A3-92E2-04C0-16929D66244F" name="Thematic block" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="48376625-74A5-4604-1BBC-21ECF8C3E913" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0620CE2E-4511-0C17-BA60-53C927983513" name="Visitor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="48376625-74A5-4604-1BBC-21ECF8C3E913" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
