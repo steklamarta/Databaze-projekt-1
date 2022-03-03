@@ -46,6 +46,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="type" id="98197795-59D9-D470-1001-A84A70B037E5">
+<createdBy>stekl</createdBy>
+<createdTime>2022-03-03 09:48:13 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9FAF75A7-883E-5667-C28D-CF9C5E84F373" name="Visitor PK">

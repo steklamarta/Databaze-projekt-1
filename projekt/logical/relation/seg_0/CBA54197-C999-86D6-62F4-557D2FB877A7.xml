@@ -1,17 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="9DC449EC-E81F-5F8D-E3A5-D9E8237F9966">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="CBA54197-C999-86D6-62F4-557D2FB877A7">
 <createdBy>stekl</createdBy>
-<createdTime>2022-02-27 13:53:29 UTC</createdTime>
+<createdTime>2022-03-03 09:49:03 UTC</createdTime>
 <ownerDesignName>projekt</ownerDesignName>
 <engineerTo>
 <item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
 </engineerTo>
-<targetPk>74094CF2-A0E3-D5B0-B507-99A41A354EE5</targetPk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<nameOnSource>visits</nameOnSource>
+<nameOnTarget>is visited by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>07DD7B1C-4111-11D4-3CE6-1A05CE497F37</sourceEntity>
+<sourceEntity>0620CE2E-4511-0C17-BA60-53C927983513</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>ECC14E41-D9A3-92E2-04C0-16929D66244F</targetEntity>
 <transferable>true</transferable>

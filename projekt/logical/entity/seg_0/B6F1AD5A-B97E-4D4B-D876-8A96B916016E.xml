@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6F1AD5A-B97E-4D4B-D876-8A96B916016E" name="Language - Clasification">
+<createdBy>stekl</createdBy>
+<createdTime>2022-03-03 09:43:13 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_clasification" id="09CD8607-3CD3-CF14-75EF-F5A2CA3033FB">
+<createdBy>stekl</createdBy>
+<createdTime>2022-03-03 09:46:07 UTC</createdTime>
+<generatorID>AF7087B4-CFB4-D4AE-B833-C59021CFCC89</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<referedAttribute>F85A92A2-1E93-DB28-70F0-1A7CC32EE75F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_language" id="E16CB6C1-2C1F-9534-782B-E998B7BF9C2F">
+<createdBy>stekl</createdBy>
+<createdTime>2022-03-03 09:46:21 UTC</createdTime>
+<generatorID>A8DBB433-8139-080F-E02D-AB355E6F1FB8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<referedAttribute>8522EBE4-56C5-63CA-3D9A-028D07ED2034</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32729791-9674-5E99-03D9-7E4BC1603A0C" name="Language - Clasification PK">
+<createdBy>stekl</createdBy>
+<createdTime>2022-03-03 09:46:10 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09CD8607-3CD3-CF14-75EF-F5A2CA3033FB</attributeRef>
+<attributeRef>E16CB6C1-2C1F-9534-782B-E998B7BF9C2F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="60E747B9-8C56-3D1F-03B4-16D5F7ADB17C" name="Key_2">
+<createdBy>stekl</createdBy>
+<createdTime>2022-03-03 09:59:28 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="BE0B9076-9552-25D2-F541-0ACF019C21C3" value="true"/>
+</engineerTo>
+<newElementsIDs>09CD8607-3CD3-CF14-75EF-F5A2CA3033FB,E16CB6C1-2C1F-9534-782B-E998B7BF9C2F</newElementsIDs>
+<usedAttributes>
+<attributeRef>09CD8607-3CD3-CF14-75EF-F5A2CA3033FB</attributeRef>
+<attributeRef>E16CB6C1-2C1F-9534-782B-E998B7BF9C2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
